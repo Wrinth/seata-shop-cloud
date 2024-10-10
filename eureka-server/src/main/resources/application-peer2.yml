@@ -1,0 +1,21 @@
+server:
+  port: 8762
+  servlet:
+    context-path: /eureka
+
+spring:
+  application:
+    name: eureka-server # # unique application name, no underscore
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/eureka,http://${eureka.instance.hostname}:8763/eureka/eureka
+  instance:
+    hostname: localhost
+    health-check-url: http://${eureka.instance.hostname}:${server.port}/${server.servlet.context-path}/actuator/health
+  server:
+    # enableSelfPreservation: false
+    eviction-interval-timer-in-ms: 4000

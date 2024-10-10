@@ -1,0 +1,24 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /eureka
+
+spring:
+  application:
+    name: eureka-server # # unique application name, no underscore
+  security:
+    user:
+      name: seatashop
+      password: seatashop123
+
+eureka:
+  client:
+    register-with-eureka: false # single server, no need to register, default true
+    fetch-registry: false # extract data from eureka server, default true
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+  instance:
+    hostname: localhost
+  server:
+    # enableSelfPreservation: false
+    eviction-interval-timer-in-ms: 4000

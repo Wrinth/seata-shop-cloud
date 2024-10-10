@@ -1,0 +1,28 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: seatashop-order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://senvmc1a:3306/seata_shop_order?
+      serverTimezone=Asia/Shanghai&characterEncoding=utf8&useUnicode=true&useSSL=true
+    username: root
+    password: APJ@com123
+
+# MyBatisPlus配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰命名
+  type-aliases-package: org.seatashop.shop.pojo
+
+logging:
+  level:
+    org.seatashop.shop: debug
+
+# eureka client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/eureka
