@@ -1,0 +1,318 @@
+2022-10-08 19:18:48,329 INFO notifyConnectTimeout:200
+
+2022-10-08 19:18:48,385 INFO notifySocketTimeout:8000
+
+2022-10-08 19:18:48,386 INFO isHealthCheck:true
+
+2022-10-08 19:18:48,386 INFO maxHealthCheckFailCount:12
+
+2022-10-08 19:18:48,386 INFO maxContent:10485760
+
+2022-10-08 19:18:48,386 INFO spring.datasource.platform:""
+
+2022-10-08 19:19:22,346 WARN DumpService start
+
+2022-10-08 19:19:22,347 INFO start clear all config-info.
+
+2022-10-08 19:19:22,376 WARN clear all config-info failed.
+
+2022-10-08 19:19:22,376 WARN clear all config-info-tenant failed.
+
+2022-10-08 19:19:22,409 INFO start clear all config-info-beta.
+
+2022-10-08 19:19:22,409 WARN clear all config-info-beta failed.
+
+2022-10-08 19:19:22,409 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 19:19:22,427 INFO start clear all config-info-tag.
+
+2022-10-08 19:19:22,428 WARN clear all config-info-tag failed.
+
+2022-10-08 19:19:22,428 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 19:19:22,541 WARN initialDelay:97
+
+2022-10-08 19:24:50,615 INFO notifyConnectTimeout:200
+
+2022-10-08 19:24:50,679 INFO notifySocketTimeout:8000
+
+2022-10-08 19:24:50,680 INFO isHealthCheck:true
+
+2022-10-08 19:24:50,680 INFO maxHealthCheckFailCount:12
+
+2022-10-08 19:24:50,680 INFO maxContent:10485760
+
+2022-10-08 19:24:50,680 INFO spring.datasource.platform:""
+
+2022-10-08 19:25:39,476 WARN DumpService start
+
+2022-10-08 19:25:39,518 INFO start clear all config-info.
+
+2022-10-08 19:25:39,523 WARN clear all config-info failed.
+
+2022-10-08 19:25:39,523 WARN clear all config-info-tenant failed.
+
+2022-10-08 19:25:39,597 INFO start clear all config-info-beta.
+
+2022-10-08 19:25:39,597 WARN clear all config-info-beta failed.
+
+2022-10-08 19:25:39,597 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 19:25:39,648 INFO start clear all config-info-tag.
+
+2022-10-08 19:25:39,649 WARN clear all config-info-tag failed.
+
+2022-10-08 19:25:39,649 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 19:25:39,789 WARN initialDelay:270
+
+2022-10-08 20:58:36,464 INFO notifyConnectTimeout:200
+
+2022-10-08 20:58:36,553 INFO notifySocketTimeout:8000
+
+2022-10-08 20:58:36,554 INFO isHealthCheck:true
+
+2022-10-08 20:58:36,554 INFO maxHealthCheckFailCount:12
+
+2022-10-08 20:58:36,554 INFO maxContent:10485760
+
+2022-10-08 20:58:36,554 INFO spring.datasource.platform:""
+
+2022-10-08 20:59:33,134 INFO notifyConnectTimeout:200
+
+2022-10-08 20:59:33,162 INFO notifySocketTimeout:8000
+
+2022-10-08 20:59:33,162 INFO isHealthCheck:true
+
+2022-10-08 20:59:33,162 INFO maxHealthCheckFailCount:12
+
+2022-10-08 20:59:33,162 INFO maxContent:10485760
+
+2022-10-08 20:59:33,163 INFO spring.datasource.platform:""
+
+2022-10-08 21:00:20,323 WARN DumpService start
+
+2022-10-08 21:00:20,323 INFO start clear all config-info.
+
+2022-10-08 21:00:20,324 WARN clear all config-info failed.
+
+2022-10-08 21:00:20,324 WARN clear all config-info-tenant failed.
+
+2022-10-08 21:00:20,576 INFO start clear all config-info-beta.
+
+2022-10-08 21:00:20,576 WARN clear all config-info-beta failed.
+
+2022-10-08 21:00:20,576 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 21:00:20,607 INFO start clear all config-info-tag.
+
+2022-10-08 21:00:20,607 WARN clear all config-info-tag failed.
+
+2022-10-08 21:00:20,607 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 21:00:20,746 WARN initialDelay:317
+
+2022-10-08 21:06:59,607 INFO notifyConnectTimeout:200
+
+2022-10-08 21:06:59,684 INFO notifySocketTimeout:8000
+
+2022-10-08 21:06:59,685 INFO isHealthCheck:true
+
+2022-10-08 21:06:59,685 INFO maxHealthCheckFailCount:12
+
+2022-10-08 21:06:59,685 INFO maxContent:10485760
+
+2022-10-08 21:06:59,685 INFO spring.datasource.platform:""
+
+2022-10-08 21:07:44,619 WARN DumpService start
+
+2022-10-08 21:07:44,625 INFO start clear all config-info.
+
+2022-10-08 21:07:44,626 WARN clear all config-info failed.
+
+2022-10-08 21:07:44,626 WARN clear all config-info-tenant failed.
+
+2022-10-08 21:07:44,716 INFO start clear all config-info-beta.
+
+2022-10-08 21:07:44,716 WARN clear all config-info-beta failed.
+
+2022-10-08 21:07:44,716 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 21:07:44,734 INFO start clear all config-info-tag.
+
+2022-10-08 21:07:44,734 WARN clear all config-info-tag failed.
+
+2022-10-08 21:07:44,734 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 21:07:44,850 WARN initialDelay:217
+
+2022-10-08 21:24:11,012 INFO notifyConnectTimeout:200
+
+2022-10-08 21:24:11,055 INFO notifySocketTimeout:8000
+
+2022-10-08 21:24:11,055 INFO isHealthCheck:true
+
+2022-10-08 21:24:11,055 INFO maxHealthCheckFailCount:12
+
+2022-10-08 21:24:11,055 INFO maxContent:10485760
+
+2022-10-08 21:24:11,056 INFO spring.datasource.platform:""
+
+2022-10-08 21:24:58,961 WARN DumpService start
+
+2022-10-08 21:24:58,962 INFO start clear all config-info.
+
+2022-10-08 21:24:58,963 WARN clear all config-info failed.
+
+2022-10-08 21:24:58,963 WARN clear all config-info-tenant failed.
+
+2022-10-08 21:24:58,984 INFO start clear all config-info-beta.
+
+2022-10-08 21:24:58,984 WARN clear all config-info-beta failed.
+
+2022-10-08 21:24:58,984 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 21:24:58,984 INFO start clear all config-info-tag.
+
+2022-10-08 21:24:58,984 WARN clear all config-info-tag failed.
+
+2022-10-08 21:24:58,984 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 21:24:59,135 WARN initialDelay:173
+
+2022-10-08 21:30:48,099 INFO notifyConnectTimeout:200
+
+2022-10-08 21:30:48,150 INFO notifySocketTimeout:8000
+
+2022-10-08 21:30:48,150 INFO isHealthCheck:true
+
+2022-10-08 21:30:48,150 INFO maxHealthCheckFailCount:12
+
+2022-10-08 21:30:48,150 INFO maxContent:10485760
+
+2022-10-08 21:30:48,150 INFO spring.datasource.platform:""
+
+2022-10-08 21:31:35,697 WARN DumpService start
+
+2022-10-08 21:31:35,697 INFO start clear all config-info.
+
+2022-10-08 21:31:35,698 WARN clear all config-info failed.
+
+2022-10-08 21:31:35,698 WARN clear all config-info-tenant failed.
+
+2022-10-08 21:31:35,765 INFO start clear all config-info-beta.
+
+2022-10-08 21:31:35,765 WARN clear all config-info-beta failed.
+
+2022-10-08 21:31:35,765 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 21:31:35,805 INFO start clear all config-info-tag.
+
+2022-10-08 21:31:35,805 WARN clear all config-info-tag failed.
+
+2022-10-08 21:31:35,805 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 21:31:35,979 WARN initialDelay:114
+
+2022-10-08 21:42:31,909 INFO notifyConnectTimeout:200
+
+2022-10-08 21:42:31,957 INFO notifySocketTimeout:8000
+
+2022-10-08 21:42:31,957 INFO isHealthCheck:true
+
+2022-10-08 21:42:31,957 INFO maxHealthCheckFailCount:12
+
+2022-10-08 21:42:31,957 INFO maxContent:10485760
+
+2022-10-08 21:42:31,958 INFO spring.datasource.platform:""
+
+2022-10-08 21:42:52,578 WARN DumpService start
+
+2022-10-08 21:42:52,579 INFO start clear all config-info.
+
+2022-10-08 21:42:52,579 WARN clear all config-info failed.
+
+2022-10-08 21:42:52,579 WARN clear all config-info-tenant failed.
+
+2022-10-08 21:42:52,629 INFO start clear all config-info-beta.
+
+2022-10-08 21:42:52,629 WARN clear all config-info-beta failed.
+
+2022-10-08 21:42:52,629 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 21:42:52,643 INFO start clear all config-info-tag.
+
+2022-10-08 21:42:52,644 WARN clear all config-info-tag failed.
+
+2022-10-08 21:42:52,644 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 21:42:52,754 WARN initialDelay:294
+
+2022-10-08 21:48:58,304 INFO notifyConnectTimeout:200
+
+2022-10-08 21:48:58,341 INFO notifySocketTimeout:8000
+
+2022-10-08 21:48:58,341 INFO isHealthCheck:true
+
+2022-10-08 21:48:58,341 INFO maxHealthCheckFailCount:12
+
+2022-10-08 21:48:58,341 INFO maxContent:10485760
+
+2022-10-08 21:48:58,341 INFO spring.datasource.platform:""
+
+2022-10-08 21:49:47,723 WARN DumpService start
+
+2022-10-08 21:49:47,724 INFO start clear all config-info.
+
+2022-10-08 21:49:47,775 WARN clear all config-info failed.
+
+2022-10-08 21:49:47,775 WARN clear all config-info-tenant failed.
+
+2022-10-08 21:49:47,823 INFO start clear all config-info-beta.
+
+2022-10-08 21:49:47,823 WARN clear all config-info-beta failed.
+
+2022-10-08 21:49:47,823 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 21:49:47,846 INFO start clear all config-info-tag.
+
+2022-10-08 21:49:47,847 WARN clear all config-info-tag failed.
+
+2022-10-08 21:49:47,847 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 21:49:47,940 WARN initialDelay:76
+
+2022-10-08 22:00:31,710 INFO notifyConnectTimeout:200
+
+2022-10-08 22:00:31,713 INFO notifySocketTimeout:8000
+
+2022-10-08 22:00:31,713 INFO isHealthCheck:true
+
+2022-10-08 22:00:31,713 INFO maxHealthCheckFailCount:12
+
+2022-10-08 22:00:31,713 INFO maxContent:10485760
+
+2022-10-08 22:00:31,713 INFO spring.datasource.platform:""
+
+2022-10-08 22:01:18,556 WARN DumpService start
+
+2022-10-08 22:01:18,556 INFO start clear all config-info.
+
+2022-10-08 22:01:18,557 WARN clear all config-info failed.
+
+2022-10-08 22:01:18,557 WARN clear all config-info-tenant failed.
+
+2022-10-08 22:01:18,657 INFO start clear all config-info-beta.
+
+2022-10-08 22:01:18,657 WARN clear all config-info-beta failed.
+
+2022-10-08 22:01:18,657 WARN clear all config-info-beta-tenant failed.
+
+2022-10-08 22:01:18,704 INFO start clear all config-info-tag.
+
+2022-10-08 22:01:18,711 WARN clear all config-info-tag failed.
+
+2022-10-08 22:01:18,711 WARN clear all config-info-tag-tenant failed.
+
+2022-10-08 22:01:18,858 WARN initialDelay:46
+

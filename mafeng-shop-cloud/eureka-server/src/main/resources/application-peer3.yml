@@ -1,0 +1,22 @@
+server:
+  port: 8763
+  servlet:
+    context-path: /eureka
+
+spring:
+  application:
+    name: eureka-server # 服务名称，命名不要下划线
+  security:
+    user:
+      name: mafeng
+      password: mafeng123
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://mafeng:mafeng123@${eureka.instance.hostname}:8761/eureka/eureka,http://mafeng:mafeng123@${eureka.instance.hostname}:8762/eureka/eureka,http://mafeng:mafeng123@${eureka.instance.hostname}:8763/eureka/eureka  # Eureka注册地址
+  instance:
+    hostname: localhost # 当前服务的域名  windows的hosts文件或Linux的/etc/hosts文件
+    health-check-url: http://${eureka.instance.hostname}:${server.port}/${server.servlet.context-path}/actuator/health # 查询当前节点健康状态
+    prefer-ip-address: true

@@ -1,0 +1,10 @@
+cn\mf5\gateway\exception\GatewayExceptionHandler.class
+cn\mf5\gateway\filter\IPForbidGatewayFilterFactory.class
+cn\mf5\gateway\predicates\RbacAuthRoutePredicateFactory.class
+cn\mf5\gateway\GatewayServerApplication.class
+cn\mf5\gateway\exception\UnAuthorizationException.class
+cn\mf5\gateway\predicates\RbacAuthRoutePredicateFactory$Config.class
+cn\mf5\gateway\filter\IPForbidGatewayFilterFactory$Config.class
+cn\mf5\gateway\filter\AuthorizationFilter.class
+cn\mf5\gateway\filter\ApiTimeStatisticsFilter.class
+cn\mf5\gateway\exception\AjaxResponse.class

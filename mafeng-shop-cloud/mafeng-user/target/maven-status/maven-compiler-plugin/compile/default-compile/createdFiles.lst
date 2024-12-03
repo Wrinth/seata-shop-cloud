@@ -1,0 +1,6 @@
+cn\mf5\user\service\impl\UserServiceImpl.class
+cn\mf5\user\UserApplication.class
+cn\mf5\user\controller\UserController.class
+cn\mf5\user\mapper\UserMapper.class
+cn\mf5\user\service\UserService.class
+cn\mf5\user\controller\RoleController.class

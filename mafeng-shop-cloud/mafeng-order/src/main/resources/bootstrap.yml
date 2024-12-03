@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: mafeng-order
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.66.133:7801
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: mafeng-shop-pro
+        extension-configs:
+          - data-id: mafeng-order.yaml
+            refresh: true
+          - data-id: common-datasource.yaml
+            refresh: true
+
+  zipkin:
+    base-url: http://192.168.66.133:9411
+  sleuth:
+    sampler:
+      probability: 1.0 # 日志采样率
+
+feign:
+  hystrix:
+    enabled: false  # 开启Hystrix
+
+logging:
+  level:
+    org.springframework.cloud.sleuth: debug
+
+seata:
+  enable: true
+  application-id: seata-cilent-order
+  tx-service-group: default_tx_group
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server # seata 服务名
+      # 非本地请修改具体的地址
+      server-addr: http://192.168.66.133:8861
+      group: SEATA_GROUP
+  config:
+    type: nacos
+    nacos:
+      # nacos ip地址
+      server-addr: http://192.168.66.133:8861
+      group: SEATA_GROUP
+      data-id: "seataServer.properties"
+  data-source-proxy-mode: AT

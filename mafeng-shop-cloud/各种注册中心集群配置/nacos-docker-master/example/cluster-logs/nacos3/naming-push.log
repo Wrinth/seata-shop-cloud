@@ -1,0 +1,4 @@
+2022-10-08 22:03:25,035 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='mafeng-user', ephemeral=true, revision=1}
+
+2022-10-08 22:03:25,533 INFO [PUSH-SUCC] 51ms, all delay time 572ms, SLA 499ms, Service{namespace='public', group='DEFAULT_GROUP', name='mafeng-user', ephemeral=true, revision=1}, DataSize=1, target=192.168.79.1
+

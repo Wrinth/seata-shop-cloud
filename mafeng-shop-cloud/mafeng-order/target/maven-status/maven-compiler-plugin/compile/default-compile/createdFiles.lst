@@ -1,0 +1,9 @@
+cn\mf5\order\interceptor\FeignClientInterceptorConfig.class
+cn\mf5\order\mapper\OrderMapper.class
+cn\mf5\order\service\impl\OrderServiceImpl.class
+cn\mf5\order\controller\OrderController.class
+cn\mf5\order\service\OrderService.class
+cn\mf5\order\rule\MyLoadBanlanceRule.class
+cn\mf5\order\client\DefaultFeignConfiguration.class
+cn\mf5\order\client\UserClient.class
+cn\mf5\order\OrderApplication.class

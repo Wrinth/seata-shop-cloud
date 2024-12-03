@@ -1,0 +1,22 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /eureka
+
+spring:
+  application:
+    name: eureka-server # 服务名称，命名不要下划线
+  security:
+    user:
+      name: mafeng
+      password: mafeng123
+eureka:
+  client:
+    register-with-eureka: false  # 是否向Eureka-Server注册，默认true  单机版本为false
+    fetch-registry: false  # 是否从Eureka-Server拉取服务信息，默认true  单机版本为false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka  # Eureka注册地址
+  instance:
+    hostname: localhost # 当前服务的域名  windows的hosts文件或Linux的/etc/hosts文件
+  server:
+    enable-self-preservation: false # 关闭Eureka自我保护

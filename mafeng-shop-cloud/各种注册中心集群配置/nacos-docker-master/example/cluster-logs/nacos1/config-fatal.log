@@ -1,0 +1,32 @@
+2022-10-08 19:25:26,154 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 19:25:39,488 WARN isQuickStart:false
+
+2022-10-08 21:00:07,941 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 21:00:20,540 WARN isQuickStart:false
+
+2022-10-08 21:07:32,684 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 21:07:44,409 WARN isQuickStart:false
+
+2022-10-08 21:24:46,833 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 21:24:58,445 WARN isQuickStart:false
+
+2022-10-08 21:31:21,433 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 21:31:32,820 WARN isQuickStart:false
+
+2022-10-08 21:42:10,137 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 21:42:18,250 WARN isQuickStart:false
+
+2022-10-08 21:49:33,869 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 21:49:46,907 WARN isQuickStart:false
+
+2022-10-08 22:01:07,815 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2022-10-08 22:01:21,191 WARN isQuickStart:false
+

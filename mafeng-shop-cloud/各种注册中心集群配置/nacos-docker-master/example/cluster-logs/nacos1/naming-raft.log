@@ -1,0 +1,635 @@
+2022-10-08 19:25:28,296 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 19:25:28,489 INFO initializing Raft sub-system
+
+2022-10-08 19:25:28,489 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-10-08 19:25:28,490 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 19:25:28,490 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 19:25:28,507 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 19:25:29,073 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 19:25:32,416 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 19:25:33,988 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 19:25:36,526 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 19:25:37,882 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 19:25:37,883 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 19:25:38,771 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 19:25:40,404 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2022-10-08 19:25:55,992 INFO leader timeout, start voting,leader: null, term: 1
+
+2022-10-08 19:25:57,669 INFO received approve from peer: {"ip":"nacos3:8848","voteFor":"nacos3:8848","term":2,"leaderDueMs":13126,"heartbeatDueMs":2000,"state":"CANDIDATE"}
+
+2022-10-08 19:25:57,682 INFO received approve from peer: {"ip":"nacos2:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":9246,"heartbeatDueMs":3500,"state":"CANDIDATE"}
+
+2022-10-08 19:26:00,007 WARN [IS LEADER] no leader is available now!
+
+2022-10-08 19:26:03,571 WARN start to close old raft protocol!!!
+
+2022-10-08 19:26:03,571 WARN stop old raft protocol task for notifier
+
+2022-10-08 19:26:03,571 WARN stop old raft protocol task for master task
+
+2022-10-08 19:26:03,571 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 19:26:03,571 WARN clean old cache datum for old raft
+
+2022-10-08 19:26:03,571 WARN start to close old raft protocol!!!
+
+2022-10-08 19:26:03,571 WARN stop old raft protocol task for notifier
+
+2022-10-08 19:26:03,571 WARN stop old raft protocol task for master task
+
+2022-10-08 19:26:03,571 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 19:26:03,571 WARN clean old cache datum for old raft
+
+2022-10-08 19:26:03,571 WARN start to move old raft protocol metadata
+
+2022-10-08 19:26:03,571 WARN start to move old raft protocol metadata
+
+2022-10-08 21:00:10,083 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:00:10,309 INFO initializing Raft sub-system
+
+2022-10-08 21:00:10,310 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2022-10-08 21:00:10,310 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 21:00:10,310 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 21:00:10,327 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 21:00:10,889 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:00:13,435 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 21:00:15,112 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 21:00:19,344 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 21:00:20,228 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2022-10-08 21:00:20,873 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 21:00:21,508 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:00:21,508 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:00:35,189 INFO vote nacos3:8848 as leader, term: 2
+
+2022-10-08 21:00:38,685 INFO nacos3:8848 has become the LEADER, local: {"ip":"nacos1:8848","voteFor":"nacos3:8848","term":2,"leaderDueMs":17801,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos3:8848","voteFor":"nacos3:8848","term":2,"leaderDueMs":15069,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2022-10-08 21:00:45,518 WARN start to close old raft protocol!!!
+
+2022-10-08 21:00:45,518 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:00:45,518 WARN stop old raft protocol task for master task
+
+2022-10-08 21:00:45,518 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:00:45,518 WARN clean old cache datum for old raft
+
+2022-10-08 21:00:45,518 WARN start to close old raft protocol!!!
+
+2022-10-08 21:00:45,518 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:00:45,518 WARN stop old raft protocol task for master task
+
+2022-10-08 21:00:45,518 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:00:45,518 WARN clean old cache datum for old raft
+
+2022-10-08 21:00:45,518 WARN start to move old raft protocol metadata
+
+2022-10-08 21:00:45,518 WARN start to move old raft protocol metadata
+
+2022-10-08 21:07:34,728 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:07:34,919 INFO initializing Raft sub-system
+
+2022-10-08 21:07:34,919 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-10-08 21:07:34,920 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 21:07:34,920 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 21:07:34,929 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 21:07:35,532 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:07:37,757 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 21:07:39,734 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 21:07:43,561 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 21:07:44,956 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 21:07:45,610 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:07:45,610 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:07:46,055 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2022-10-08 21:08:00,002 WARN [IS LEADER] no leader is available now!
+
+2022-10-08 21:08:00,116 INFO vote nacos2:8848 as leader, term: 2
+
+2022-10-08 21:08:05,007 INFO nacos2:8848 has become the LEADER, local: {"ip":"nacos1:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":15535,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos2:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":18741,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2022-10-08 21:08:10,165 WARN start to close old raft protocol!!!
+
+2022-10-08 21:08:10,165 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:08:10,165 WARN stop old raft protocol task for master task
+
+2022-10-08 21:08:10,165 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:08:10,165 WARN clean old cache datum for old raft
+
+2022-10-08 21:08:10,165 WARN start to close old raft protocol!!!
+
+2022-10-08 21:08:10,165 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:08:10,165 WARN stop old raft protocol task for master task
+
+2022-10-08 21:08:10,165 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:08:10,165 WARN clean old cache datum for old raft
+
+2022-10-08 21:08:10,165 WARN start to move old raft protocol metadata
+
+2022-10-08 21:08:10,165 WARN start to move old raft protocol metadata
+
+2022-10-08 21:24:48,999 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:24:49,161 INFO initializing Raft sub-system
+
+2022-10-08 21:24:49,161 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-10-08 21:24:49,162 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 21:24:49,162 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 21:24:49,188 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 21:24:49,777 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:24:52,264 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 21:24:53,556 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 21:24:57,698 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 21:24:57,705 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 21:24:59,026 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:24:59,026 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:25:00,225 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2022-10-08 21:25:15,005 WARN [IS LEADER] no leader is available now!
+
+2022-10-08 21:25:15,077 INFO vote nacos2:8848 as leader, term: 2
+
+2022-10-08 21:25:24,670 WARN start to close old raft protocol!!!
+
+2022-10-08 21:25:24,670 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:25:24,670 WARN stop old raft protocol task for master task
+
+2022-10-08 21:25:24,670 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:25:24,670 WARN clean old cache datum for old raft
+
+2022-10-08 21:25:24,670 WARN start to close old raft protocol!!!
+
+2022-10-08 21:25:24,670 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:25:24,670 WARN stop old raft protocol task for master task
+
+2022-10-08 21:25:24,670 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:25:24,670 WARN clean old cache datum for old raft
+
+2022-10-08 21:25:24,670 WARN start to move old raft protocol metadata
+
+2022-10-08 21:25:24,670 WARN start to move old raft protocol metadata
+
+2022-10-08 21:31:23,672 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:31:23,889 INFO initializing Raft sub-system
+
+2022-10-08 21:31:23,890 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2022-10-08 21:31:23,890 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 21:31:23,890 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 21:31:23,893 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 21:31:24,485 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:31:26,445 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 21:31:27,695 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 21:31:30,420 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 21:31:31,771 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:31:31,772 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:31:32,270 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 21:31:34,632 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2022-10-08 21:31:49,454 INFO vote nacos2:8848 as leader, term: 2
+
+2022-10-08 21:31:54,200 INFO nacos2:8848 has become the LEADER, local: {"ip":"nacos1:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":18261,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos2:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":18012,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2022-10-08 21:31:58,950 WARN start to close old raft protocol!!!
+
+2022-10-08 21:31:58,950 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:31:58,950 WARN stop old raft protocol task for master task
+
+2022-10-08 21:31:58,950 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:31:58,950 WARN clean old cache datum for old raft
+
+2022-10-08 21:31:58,950 WARN start to close old raft protocol!!!
+
+2022-10-08 21:31:58,950 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:31:58,950 WARN stop old raft protocol task for master task
+
+2022-10-08 21:31:58,950 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:31:58,950 WARN clean old cache datum for old raft
+
+2022-10-08 21:31:58,950 WARN start to move old raft protocol metadata
+
+2022-10-08 21:31:58,950 WARN start to move old raft protocol metadata
+
+2022-10-08 21:42:11,594 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:42:11,718 INFO initializing Raft sub-system
+
+2022-10-08 21:42:11,719 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2022-10-08 21:42:11,719 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 21:42:11,719 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 21:42:11,724 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 21:42:12,464 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:42:14,190 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 21:42:15,298 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 21:42:17,642 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 21:42:20,915 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 21:42:21,780 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2022-10-08 21:42:21,845 ERROR error while sending vote to server: nacos3:8848
+
+java.net.UnknownHostException: nacos3
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:637)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$InternalAddressResolver.resolveRemoteAddress(PoolingNHttpClientConnectionManager.java:608)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.processPendingRequest(AbstractNIOConnPool.java:474)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.lease(AbstractNIOConnPool.java:280)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.requestConnection(PoolingNHttpClientConnectionManager.java:268)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.requestConnection(AbstractClientExchangeHandler.java:377)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.start(DefaultClientExchangeHandlerImpl.java:129)
+	at org.apache.http.impl.nio.client.InternalHttpAsyncClient.execute(InternalHttpAsyncClient.java:141)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:75)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:108)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClient.execute(CloseableHttpAsyncClient.java:92)
+	at com.alibaba.nacos.common.http.client.request.DefaultAsyncHttpClientRequest.execute(DefaultAsyncHttpClientRequest.java:53)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.execute(NacosAsyncRestTemplate.java:364)
+	at com.alibaba.nacos.common.http.client.NacosAsyncRestTemplate.postForm(NacosAsyncRestTemplate.java:350)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpRequest(HttpClient.java:192)
+	at com.alibaba.nacos.naming.misc.HttpClient.asyncHttpPost(HttpClient.java:149)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.sendVote(RaftCore.java:518)
+	at com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$MasterElection.run(RaftCore.java:494)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:42:21,845 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:42:34,017 INFO vote nacos2:8848 as leader, term: 2
+
+2022-10-08 21:42:38,847 INFO nacos2:8848 has become the LEADER, local: {"ip":"nacos1:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":17478,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos2:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":16048,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2022-10-08 21:42:51,935 INFO received illegitimate vote, voter-term:1, votee-term:2
+
+2022-10-08 21:43:06,895 WARN start to close old raft protocol!!!
+
+2022-10-08 21:43:06,896 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:43:06,896 WARN stop old raft protocol task for master task
+
+2022-10-08 21:43:06,896 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:43:06,896 WARN clean old cache datum for old raft
+
+2022-10-08 21:43:06,896 WARN start to close old raft protocol!!!
+
+2022-10-08 21:43:06,896 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:43:06,896 WARN stop old raft protocol task for master task
+
+2022-10-08 21:43:06,896 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:43:06,896 WARN clean old cache datum for old raft
+
+2022-10-08 21:43:06,896 WARN start to move old raft protocol metadata
+
+2022-10-08 21:43:06,896 WARN start to move old raft protocol metadata
+
+2022-10-08 21:48:01,727 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=SUSPICIOUS, extendInfo={lastRefreshTime=1665236881384, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=2}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=2}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1665236879173, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=2}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos1:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=2}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1665236586896, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@2c84946f, raftPort=7848, readyToUpgrade=true, version=2.0.3}}]
+
+2022-10-08 21:49:35,931 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:49:36,140 INFO initializing Raft sub-system
+
+2022-10-08 21:49:36,140 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-10-08 21:49:36,141 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 21:49:36,141 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 21:49:36,151 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 21:49:36,710 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 21:49:40,277 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 21:49:41,750 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 21:49:45,885 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 21:49:47,302 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 21:49:47,682 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2022-10-08 21:49:47,993 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:49:48,009 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 21:50:02,094 INFO vote nacos2:8848 as leader, term: 2
+
+2022-10-08 21:50:06,132 INFO nacos2:8848 has become the LEADER, local: {"ip":"nacos1:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":18622,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos2:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":17289,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2022-10-08 21:50:12,506 WARN start to close old raft protocol!!!
+
+2022-10-08 21:50:12,506 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:50:12,506 WARN stop old raft protocol task for master task
+
+2022-10-08 21:50:12,506 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:50:12,506 WARN clean old cache datum for old raft
+
+2022-10-08 21:50:12,506 WARN start to close old raft protocol!!!
+
+2022-10-08 21:50:12,506 WARN stop old raft protocol task for notifier
+
+2022-10-08 21:50:12,506 WARN stop old raft protocol task for master task
+
+2022-10-08 21:50:12,506 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 21:50:12,506 WARN clean old cache datum for old raft
+
+2022-10-08 21:50:12,506 WARN start to move old raft protocol metadata
+
+2022-10-08 21:50:12,506 WARN start to move old raft protocol metadata
+
+2022-10-08 21:51:09,218 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mafeng-user
+
+2022-10-08 22:01:09,943 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 22:01:10,148 INFO initializing Raft sub-system
+
+2022-10-08 22:01:10,148 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2022-10-08 22:01:10,149 INFO cache loaded, datum count: 0, current term: 0
+
+2022-10-08 22:01:10,149 INFO finish to load data from disk, cost: 1 ms.
+
+2022-10-08 22:01:10,152 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-10-08 22:01:10,755 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}]
+
+2022-10-08 22:01:14,041 INFO Raft group naming_persistent_service has leader null
+
+2022-10-08 22:01:16,199 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-10-08 22:01:17,184 INFO leader timeout, start voting,leader: null, term: 0
+
+2022-10-08 22:01:18,681 ERROR error while sending vote to server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 22:01:18,709 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-08 22:01:18,848 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2022-10-08 22:01:20,381 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-10-08 22:01:35,650 INFO leader timeout, start voting,leader: null, term: 1
+
+2022-10-08 22:01:35,674 INFO received approve from peer: {"ip":"nacos2:8848","voteFor":"nacos3:8848","term":2,"leaderDueMs":13039,"heartbeatDueMs":1500,"state":"FOLLOWER"}
+
+2022-10-08 22:01:35,697 INFO received approve from peer: {"ip":"nacos3:8848","voteFor":"nacos3:8848","term":2,"leaderDueMs":15505,"heartbeatDueMs":2000,"state":"LEADER"}
+
+2022-10-08 22:01:35,698 INFO nacos3:8848 has become the LEADER
+
+2022-10-08 22:01:37,370 INFO [RAFT] make remote as leader, remote peer: {"ip":"nacos3:8848","voteFor":"nacos3:8848","term":2,"leaderDueMs":15502,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2022-10-08 22:01:40,150 WARN start to close old raft protocol!!!
+
+2022-10-08 22:01:40,150 WARN stop old raft protocol task for notifier
+
+2022-10-08 22:01:40,150 WARN stop old raft protocol task for master task
+
+2022-10-08 22:01:40,150 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 22:01:40,150 WARN clean old cache datum for old raft
+
+2022-10-08 22:01:40,150 WARN start to close old raft protocol!!!
+
+2022-10-08 22:01:40,150 WARN stop old raft protocol task for notifier
+
+2022-10-08 22:01:40,150 WARN stop old raft protocol task for master task
+
+2022-10-08 22:01:40,150 WARN stop old raft protocol task for heartbeat task
+
+2022-10-08 22:01:40,150 WARN clean old cache datum for old raft
+
+2022-10-08 22:01:40,150 WARN start to move old raft protocol metadata
+
+2022-10-08 22:01:40,150 WARN start to move old raft protocol metadata
+
+2022-10-08 22:01:40,199 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1665237699639, naming={voteFor=nacos3:8848, ip=nacos3:8848, heartbeatDueMs=3500, term=2, leaderDueMs=17005, state=LEADER}, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1665237699722, naming={voteFor=nacos3:8848, ip=nacos2:8848, heartbeatDueMs=5000, term=2, leaderDueMs=16311, state=FOLLOWER}, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1665237700150, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@6f862be3, raftPort=7848, readyToUpgrade=true, version=2.0.3}}]
+
+2022-10-08 22:03:26,461 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mafeng-user
+

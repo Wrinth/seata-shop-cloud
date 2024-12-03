@@ -1,0 +1,28 @@
+2022-10-08 19:22:57,632 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 20:53:32,211 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 21:05:32,038 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 21:17:21,113 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 21:30:21,160 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 21:41:27,242 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 21:48:04,007 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 21:51:09,793 INFO DEFAULT_GROUP@@mafeng-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.79.1:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-08 21:51:09,795 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mafeng-user, ips: 192.168.79.1:9001_true,
+
+2022-10-08 21:59:15,873 INFO DEFAULT_GROUP@@mafeng-user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.79.1:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-08 21:59:15,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mafeng-user, ips: 
+
+2022-10-08 21:59:25,765 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-10-08 22:03:26,236 INFO DEFAULT_GROUP@@mafeng-user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.79.1:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-10-08 22:03:26,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mafeng-user, ips: 192.168.79.1:9001_true,
+

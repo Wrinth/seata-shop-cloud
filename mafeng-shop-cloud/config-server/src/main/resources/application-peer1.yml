@@ -1,0 +1,44 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/eric123456/mafeng-shop-cloud.git  # git仓库地址
+          search-paths: shop-config   # 配置文件所在的仓库的目录名称
+          #username:
+          #password:
+  security:
+    basic:
+      enabled: true  #启用基本认证(默认)
+    user:
+      name: mafeng   #自定义登录用户名
+      password: mafeng123  #自定义登录密码
+
+  rabbitmq:
+    host: 192.168.66.133
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://mafeng:mafeng123@${eureka.instance.hostname}:8761/eureka/eureka,http://mafeng:mafeng123@${eureka.instance.hostname}:8762/eureka/eureka,http://mafeng:mafeng123@${eureka.instance.hostname}:8763/eureka/eureka  # Eureka注册地址
+  instance:
+    hostname: localhost # 当前服务的域名  windows的hosts文件或Linux的/etc/hosts文件
+    health-check-url: http://${eureka.instance.hostname}:${server.port}/${server.servlet.context-path}/actuator/health # 查询当前节点健康状态
+    prefer-ip-address: true
