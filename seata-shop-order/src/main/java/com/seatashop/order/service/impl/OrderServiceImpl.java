@@ -1,6 +1,7 @@
 package com.seatashop.order.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.seatashop.order.client.UserClient;
 import com.seatashop.order.mapper.OrderMapper;
 import com.seatashop.order.service.OrderService;
 import com.seatashop.pojo.Order;
@@ -22,11 +23,14 @@ import java.util.List;
 
 @Service
 public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements OrderService {
-    @Autowired
-    private RestTemplate restTemplate;
+//    @Autowired
+//    private RestTemplate restTemplate;
 
     @Autowired
     private DiscoveryClient discoveryClient; // Get services info from register center
+
+    @Autowired
+    private UserClient userClient;
 
     @Override
     public Order findById(Long id) {
@@ -60,10 +64,20 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         order.setUser(user);
          */
 
+        /* method 3: with DiscoveryClient
         List<ServiceInstance> instances = discoveryClient.getInstances("seatashop-user");
         ServiceInstance serviceInstance = instances.get(0);
         String url = "http://"+serviceInstance.getHost()+":"+serviceInstance.getPort()+"/user/"+order.getUserId();
+        */
+
+        /* Method 4: RestTemplate + @LoadBalance
+        String url = "http://seatashop-user/user/"+order.getUserId() ;
+
         User user = restTemplate.getForObject(url, User.class);
+        */
+
+        // Method 5: OpenFeign
+        User user = userClient.findById(order.getUserId());
         order.setUser(user);
 
         return order;

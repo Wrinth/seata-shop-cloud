@@ -14,6 +14,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="seata-shop-user" />
+        <module name="gateway-server" />
         <module name="seata-shop-order" />
         <module name="seata-shop-pojo" />
         <module name="eureka-server" />
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="seata-shop-order" options="-parameters" />
       <module name="seata-shop-pojo" options="-parameters" />
       <module name="seata-shop-user" options="-parameters" />

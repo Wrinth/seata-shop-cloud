@@ -1,0 +1,13 @@
+
+V	java:S125	"<This block of commented-out lines of code should be removed.(Éúğ„ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÿ€ú“ÿÿÿÿÿ
+Q	java:S125*"<This block of commented-out lines of code should be removed.(ıê”Ê
+Q	java:S125>"<This block of commented-out lines of code should be removed.(ÅšÍ§
+V	java:S125D"<This block of commented-out lines of code should be removed.(ÂÈ¥ûÿÿÿÿ
+V	java:S125J"<This block of commented-out lines of code should be removed.(Ó…¤íùÿÿÿÿ
+c
+java:S1128"MRemove this unused import 'org.springframework.cloud.client.ServiceInstance'.(¡‡¨ã
+c
+java:S1128"HRemove this unused import 'org.springframework.web.client.RestTemplate'.(Îö¼Şûÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
